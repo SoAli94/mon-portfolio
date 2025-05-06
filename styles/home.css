@@ -1,0 +1,17 @@
+main{
+    font-family: Arial, sans-serif;
+    padding : 40px;
+    background-color: #8d4444;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #01264b;
+    font-size: 2.5rem;
+
+}
+
+p{
+    font-size : 1.2rem;
+    color: #333
+}
