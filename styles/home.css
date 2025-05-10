@@ -1,17 +1,47 @@
 main{
     font-family: Arial, sans-serif;
     padding : 40px;
-    background-color: #8d4444;
+    background-color: rgba(0,0,0,0.1);
+    color: #fff;
     min-height: 100vh;
 }
 
 h1 {
-    color: #01264b;
+    color: #050505;
     font-size: 2.5rem;
 
 }
 
 p{
     font-size : 1.2rem;
-    color: #333
+    color: #636060;
 }
+
+/* Animation pour effet machine à écrire */
+.typing-text {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace; /* Police pour l'effet machine à écrire */
+    white-space: nowrap; /* Empêche le texte de se couper en plusieurs lignes */
+    overflow: hidden; /* Cache le texte qui n'est pas encore visible */
+    border-right: 3px solid #333; /* Bordure pour simuler le curseur */
+    width: 0; /* Initialement, l'élément est caché */
+    animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite; /* Typing + blinking cursor */
+  }
+  
+  /* Animation de type machine à écrire */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Le texte s'affiche au fur et à mesure */
+    }
+  }
+  
+  /* Clignotement du curseur */
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  

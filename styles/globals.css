@@ -40,3 +40,25 @@ a {
     color-scheme: dark;
   }
 }
+
+.icon-link {
+  margin: 0 0.5rem;
+  color: #000;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-link:hover {
+  transform: scale(1.2);
+  color: #0077B5; /* LinkedIn color */
+}
+
+.icon-link1 {
+  margin: 0 0.5rem;
+  color: #000;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-link1:hover {
+  transform: scale(1.2);
+  color: #889da9; /* LinkedIn color */
+}
